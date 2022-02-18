@@ -1,3 +1,17 @@
 .search {
+  .search_input {
+    max-width: 200px;
+    border-radius: 25px;
+    border: solid 1px #888888;
+    height: 40px;
+  }
 
+  input {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 25px;
+    max-width: 170px;
+    border: none;
+    outline: none;
+  }
 }
