@@ -5,7 +5,7 @@ import {Image} from "react-bootstrap";
 
 const About = () => {
     return <Container>
-        <h2><Image src={logo} alt="Logo" width="100px"/> About</h2>
+        <h2><Image src={logo} alt="Logo" width="100px"/> About!!!</h2>
     </Container>;
 }
 

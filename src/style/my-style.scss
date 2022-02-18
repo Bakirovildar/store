@@ -17,6 +17,11 @@ a:hover {
   color: #e65540 !important;
 }
 
+li, ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
 p {
   font-family: Montserrat, sans-serif;
   font-size: 15px;
@@ -55,6 +60,10 @@ p {
   }
 }
 
+.pb-20 {
+  padding-bottom: 20px;
+}
+
 .pt-40 {
   padding-top: 40px;
 }
@@ -71,6 +80,14 @@ p {
   max-width: 257px;
 }
 
+.w-size22 {
+  width: 90px;
+}
+
+.w-size23 {
+  width: calc(100% - 110px);
+}
+
 .w-200 {
   width: 200px;
 }
@@ -85,4 +102,20 @@ p {
 
 .pt-56 {
   padding-top: 56px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-6 {
+  padding-top: 6px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ls-none {
+  list-style: none;
 }
