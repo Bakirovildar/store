@@ -1,13 +1,13 @@
 import FeaturedProducts from "./sidebar/FeaturedProducts"
 import {Container} from "react-bootstrap"
-import Search from "./sidebar/Search"
 import {productService} from "../../../service/ProductService";
+import Search from "../../../components/Search";
 
-const BlogSidebar = ({setCartItems}) => {
+const BlogSidebar = ({setCartItems, onChangeInput}) => {
     let productsByCategory = productService.getProductsByCategory('featured')
     return (
         <Container>
-            <Search />
+            <Search onChangeInput={onChangeInput}/>
             <FeaturedProducts products={productsByCategory} setCartItems={setCartItems} />
         </Container>
     )
