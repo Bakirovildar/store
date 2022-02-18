@@ -14,9 +14,9 @@ const Contact = () => {
 
 function users() {
     const list = [
-        new User("John", "Doe", 99),
-        new User("John", "Snow", 35),
-        new User("Peter", "Pan", 77)
+        new User("John", "Doe!!!", 99),
+        new User("John", "Snow!!!", 35),
+        new User("Peter", "Parker!!!", 77)
     ];
     return list.map(user => {
         return (
