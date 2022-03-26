@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/store/static/css/main.094f5151.css",
-    "main.js": "/store/static/js/main.8d92f4f4.js",
+    "main.js": "/store/static/js/main.c59c6220.js",
     "static/js/787.7c7730b1.chunk.js": "/store/static/js/787.7c7730b1.chunk.js",
+    "static/media/heading-pages-05.png": "/store/static/media/heading-pages-05.0009ca1f025a66492109.png",
     "static/media/baki-brand.png": "/store/static/media/baki-brand.f41009659c301ed74c67.png",
     "static/media/logo.svg": "/store/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/store/index.html",
     "main.094f5151.css.map": "/store/static/css/main.094f5151.css.map",
-    "main.8d92f4f4.js.map": "/store/static/js/main.8d92f4f4.js.map",
+    "main.c59c6220.js.map": "/store/static/js/main.c59c6220.js.map",
     "787.7c7730b1.chunk.js.map": "/store/static/js/787.7c7730b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.094f5151.css",
-    "static/js/main.8d92f4f4.js"
+    "static/js/main.c59c6220.js"
   ]
 }
