@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import ProductFilterSidebar from "./sections/ProductFilterSidebar";
 import {Col, Row} from "react-bootstrap";
 import ProductList from "./sections/ProductList";
-import banner from '../../assets/images/heading-pages-01.jpg'
+import banner from '../../assets/images/heading-pages-05.png'
 import PageTitleBanner from "../../components/PageTitleBanner";
 import ProductSortAndPagination from "./sections/ProductSortAndPagination";
 import {productService} from "../../service/ProductService";

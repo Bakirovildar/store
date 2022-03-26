@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import Container from "react-bootstrap/Container"
-import banner from "../../assets/images/heading-pages-05.jpg"
+import banner from "../../assets/images/heading-pages-05.png"
 import BlogList from "./sections/BlogList"
 import BlogSidebar from "./sections/BlogSidebar"
 import {Col, Row} from "react-bootstrap"

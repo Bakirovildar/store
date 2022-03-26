@@ -1,13 +1,9 @@
-import blog1 from "../assets/images/blog-01.jpg";
-import blog2 from "../assets/images/blog-02.jpg";
-import blog3 from "../assets/images/blog-03.jpg";
-
 class BlogService {
     getAllBlogs() {
         return [
             {
                 id: 1,
-                img: blog1,
+                img: 'https://images.unsplash.com/photo-1616418625172-c607e16733ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80',
                 category: 'fashion',
                 author: "Author 1",
                 date: new Date(),
@@ -24,7 +20,7 @@ class BlogService {
             },
             {
                 id: 2,
-                img: blog2,
+                img: 'https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
                 author: "Author 1",
                 date: new Date(),
                 tags: ["sports"],
@@ -36,7 +32,7 @@ class BlogService {
             },
             {
                 id: 3,
-                img: blog3,
+                img: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
                 author: "Author 2",
                 date: new Date(),
                 tags: ["crafts", "style"],
